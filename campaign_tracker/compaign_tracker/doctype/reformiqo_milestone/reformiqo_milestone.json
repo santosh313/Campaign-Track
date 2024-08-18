@@ -21,8 +21,10 @@
   {
    "fieldname": "assigned_to",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Assigned To",
-   "options": "User"
+   "options": "User",
+   "reqd": 1
   },
   {
    "fieldname": "status",
@@ -44,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-18 23:51:05.732487",
+ "modified": "2024-08-19 01:50:39.131622",
  "modified_by": "Administrator",
  "module": "Compaign Tracker",
  "name": "Reformiqo Milestone",
